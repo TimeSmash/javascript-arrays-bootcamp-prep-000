@@ -41,4 +41,4 @@ function destructivelyAddElementToEndOfArray (array, element) {
   return lettersDestAdd;
 }
   
-  destructivelyaddElementToEndOfArray(letters, "D");
+  destructivelyAddElementToEndOfArray(letters, "D");
