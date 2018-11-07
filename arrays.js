@@ -61,3 +61,8 @@ function destructivelyAddElementToEndOfArray (array, element) {
   return removeBeginningEle;
   }
   
+  function destructivelyRemoveElementFromEndOfArray(array) {
+  return array.push();
+    
+  }
+  }
