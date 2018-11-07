@@ -56,7 +56,8 @@ function destructivelyAddElementToEndOfArray (array, element) {
   }
   
   var japaneseFood = ["okonomiyaki", "sushi", "croquette", "sashimi"];
-  function removeElementFromBeginningOFArray(array) {
+  function removeElementFromBeginningOfArray(array) {
   var removeBeginningEle = array.slice(1);
   return removeBeginningEle;
   }
+  
