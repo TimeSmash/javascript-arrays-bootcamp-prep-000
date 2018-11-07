@@ -38,7 +38,7 @@ var letters = ["A", "B", "C"];
 
 function destructivelyAddElementToEndOfArray (array, element) {
   var lettersDestAdd = array.push(element);
-  return lettersDestAdd;
+  return array;
 }
   
   destructivelyAddElementToEndOfArray(letters, "D");
