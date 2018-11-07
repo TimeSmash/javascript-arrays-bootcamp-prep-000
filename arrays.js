@@ -42,3 +42,9 @@ function destructivelyAddElementToEndOfArray (array, element) {
 }
   
   destructivelyAddElementToEndOfArray(letters, "D");
+  
+  var recipesUsingChoc = ["cookies", "brownies", "ice cream"];
+  
+  function accessElementInArray(array, index) {
+  return console.log(array[index]);
+  }
