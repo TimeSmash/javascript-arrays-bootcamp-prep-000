@@ -30,7 +30,7 @@ destructivelyAddElementToBeginningOfArray(gameSystems, "Virtual Boy");
 var numbers = [1, 2, 3];
 function addElementToEndOfArray (array, element) {
   var numbersArray = [...array, element];
-return numbersArray;
+return ;
 }
 addElementToEndOfArray(numbers, 4);
 
