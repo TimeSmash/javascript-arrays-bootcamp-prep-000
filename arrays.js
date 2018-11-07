@@ -62,7 +62,7 @@ function destructivelyAddElementToEndOfArray (array, element) {
   }
   
   function destructivelyRemoveElementFromEndOfArray(array) {
-  return array.push();
-    
+  array.push();
+  return array;  
   }
-  }
+  
